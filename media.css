@@ -1,0 +1,83 @@
+
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+@media (max-width:774) {
+  .a2{
+   padding: 0;
+   font-size: 5px;
+   margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ham{
+      display: inline;
+    
+  }
+  .ul{
+      display: none;
+  }
+  .img{
+    float: left;
+  }
+  
+  .head .roe .col{
+    width: 100%;
+  }
+  .col{
+    width: 100%;
+  }
+  .head{width: 100%;}
+}
+@media  (max-width: 778px) {
+span{ margin-right: 5px;
+  background-color: #5267DF;
+  padding: 5px;
+  border-radius: 2rem;
+  color: white;
+  font-family: sans-serif;
+  cursor: pointer;
+   -webkit-user-select: none;
+      -moz-user-select: none;
+       -ms-user-select: none;
+           user-select: none;
+  
+ 
+ }
+.btn1{
+    margin-bottom: 10px;
+    
+}
+.nav div .ul li {
+  float: left;
+  margin-right: 7px;
+}
+  
+}
+@media (max-width: 420px) {
+  span{ margin-right: 2px;
+      padding: 0px;
+              -webkit-user-select: none;
+                 -moz-user-select: none;
+                  -ms-user-select: none;
+                      user-select: none;
+      font-size: 10px;
+    background-color: transparent;
+     color:#5267DF ;
+     border-bottom: 1px solid black;
+     padding: 3px;
+     font-weight: 700;
+     font-family: sans-serif;
+     
+     }
+}
+@media (max-width:500px) {
+  .contact .feature div h5,.contact .feature div h2{
+     font-size: 20px;
+  }
+}

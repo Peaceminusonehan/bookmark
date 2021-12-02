@@ -1,23 +1,17 @@
-const spanlay =document.getElementsByClassName(".span")
-
-const spanlist =[{
-    name:"Simple Bookmarking",
-    id:1
-},
-{
-    name:"Simple Bookmarking",
-    id:2
-},
-{
-    name:"Simple Bookmarking",
-    id:3
-},]
-
-  for (let i = 0; index <spanlist.length; i++) {
-    const spans = document.createElement("span")
-    spans.append(spanlist[i].name)
-   
-    
-    
+const lebal =document.querySelector(".ham")
+const ull =document.querySelector(".ul1")
+const over=document.querySelector(".overlay")
+const laybar=() => {
+   if (over.classList.contains("lee")) {
+       over.classList.remove("show")
+       over.classList.remove("lee")
+   } else{
+    over.classList.add("show")
+    over.classList.add("lee")
+   }
+  
 }
-console.log("fjdfj")
+
+lebal.addEventListener("click",laybar)
+ull.addEventListener("click",laybar)
+

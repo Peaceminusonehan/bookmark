@@ -83,6 +83,7 @@
     p{
         margin-top: 2rem;
     }
+  
     .btn1{
         border: none;
         outline: none;
@@ -174,6 +175,7 @@
     .p1{
         width: 70%;
         margin-bottom: 2rem;
+       
     }
     .contact .feature div h5,.contact .feature div h2{
         margin-bottom: 20px;
@@ -210,6 +212,8 @@
     .ham{
         display: none;
         cursor: pointer;
+        z-index: 100;
+        margin-right: 2rem;
     }
 
 
@@ -232,8 +236,48 @@
 .img{
     width: 100%;
     height: auto;
+    
+    border-radius: 30px;
 }
 
+@keyframes line{
+    from {opacity: 0;transform:translateX(-50px);}
+    to{opacity: 1;transform: translateX(opx)}
+}
+.overlay{
+    height: auto;
+    width: 20rem;
+    position: fixed;
+    /*background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://wallpaperaccess.com/full/5837770.jpg);*/
+    right: 0;
+    background-color: #778899;
+    display: flex;
+    justify-content: center;
+    display: none;
+    
+    border-radius: 5px;
+    
+   
+}
+.ul1{
+    margin-top: 5rem;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+}
+.a1{
+    color: inherit;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.li1{margin-bottom: 10px;}
+
+.show{
+    display: inline;
+   
+}
 
   
 

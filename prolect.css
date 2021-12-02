@@ -71,10 +71,14 @@
         list-style: none;
        
     }
+    .body{
+        overflow: hidden;
+    }
     /*---------------head---------------------*/
     .head{
         margin-top: 4rem;
         margin-bottom: 5rem;
+        overflow: hidden;
     }
     p{
         margin-top: 2rem;
@@ -109,7 +113,7 @@
         color: white;
     }
     .img{
-       
+        
         border-radius: 5px;
     }
     /*--- feature-----*/
@@ -167,6 +171,10 @@
         padding: 20px;
         width: 100%;
     }
+    .p1{
+        width: 70%;
+        margin-bottom: 2rem;
+    }
     .contact .feature div h5,.contact .feature div h2{
         margin-bottom: 20px;
     }
@@ -175,6 +183,7 @@
         border: none;
         border-radius: 10px;
         padding: 10px;
+        margin-bottom: 1rem;
     }
     .foot{
         background-color:lightslategray ;
@@ -219,6 +228,10 @@
 .a2:hover{
     background-color: lightgray;
     color: black;
+}
+.img{
+    width: 100%;
+    height: auto;
 }
 
 

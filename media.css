@@ -1,17 +1,30 @@
 
-
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.3.6,
-* Autoprefixer: v10.3.1
-* Browsers: last 4 version
-*/
+@media(max-width:992){
+  .p1{width: 100%;
+  align-items: center;}
+}
 @media (max-width:774) {
   .a2{
    padding: 0;
    font-size: 5px;
    margin-bottom: 5px;
   }
+  .p1{width: 100%;
+    align-items: center;}
+}
+@media (max-width:670px) {
+  .img{width: 20remrem;
+    align-items: center;
+    margin:  0 auto;
+   };
+   .p1{width: 100%;
+    align-items: center;}
+}
+@media (max-width:668px) {
+  .img{width: 19.5rem;
+    align-items: center;
+    margin:  0 auto;
+   };
 }
 
 @media (max-width: 600px) {
@@ -22,13 +35,16 @@
   .ul{
       display: none;
   }
-  .img{
-    float: left;
-  }
+  .img{width: 19.5rem;
+    align-items: center;
+    margin:  0 auto;
+   };
   
   .head .roe .col{
     width: 100%;
   }
+  .p1{width: 100%;
+    align-items: center;}
   .col{
     width: 100%;
   }
@@ -49,6 +65,8 @@ span{ margin-right: 5px;
   
  
  }
+ .p1{width: 100%;
+  align-items: center;}
 .btn1{
     margin-bottom: 10px;
     
@@ -73,14 +91,50 @@ span{ margin-right: 5px;
      padding: 3px;
      font-weight: 700;
      font-family: sans-serif;
-     
+   
      }
+     .img{width: 19.5rem;
+      align-items: center;
+      margin:  0 auto;
+     };
+     body{
+       overflow: hidden;
+     }
+     .p1{width: 100%;
+      align-items: center;}
+     
 }
 @media (max-width:500px) {
   .contact .feature div h5,.contact .feature div h2{
      font-size: 20px;
   }
-  .img{
-    width: 100%;
-  }
+  
+  
+  
+  .p1{width: 100%;
+    align-items: center;}
+  .img{width: 19.5rem;
+  margin-left: 4rem
+     };
+}
+@media(max-width:375px) {
+
+   .img{width: 19.5rem;
+   align-items: center;
+   margin:  0 auto;
+  };
+   body{
+     overflow: hidden;
+   }
+   .p1{width: 100%;
+    align-items: center;}
+
+}
+@media (max-width:772px){
+ .img{
+   width: 20rem;
+  align-items: center;
+  margin:  0 auto;
+ }
+ 
 }

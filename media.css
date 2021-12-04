@@ -28,9 +28,7 @@
 }
 
 @media (max-width: 600px) {
-  .cols{
-  max-width: 100%;
-  }
+  
   .ham{
       display: inline;
     
